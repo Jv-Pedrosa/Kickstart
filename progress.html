@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    GET JOB FOLLOW THIS STEPS!
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+#popup.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    @font-face {
+      font-family: pop;
+      src: url(./Fonts/Poppins-Medium.ttf);
+    }
+
+    .main {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: pop;
+      flex-direction: column;
+    }
+    .head {
+      text-align: center;
+    }
+    .head_1 {
+      font-size: 80px;
+      font-weight: 600;
+      color: #333;
+    }
+    .head_1 span {
+      color: #fe7a36;
+    }
+    .head_2 {
+      font-size: 25px;
+      font-weight: 600;
+      color: #333;
+      margin-top: 3px;
+    }
+    .ul-jv {
+      display: flex;
+      margin-top: 80px;
+    }
+    .ul-jv #jv-li {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .ul-jv #jv-li .icon {
+      font-size: 35px;
+      color: #fe7a36;
+      margin: 0 60px;
+    }
+    .ul-jv #jv-li .text {
+      font-size: px;
+      font-weight: 600;
+      color: #fe7a36;
+    }
+
+    /* Progress Div Css  */
+
+    .ul-jv #jv-li .progress1 {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: rgba(68, 68, 68, 0.781);
+      margin: 14px 0;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      position: relative;
+      cursor: pointer;
+    }
+    .progress1::after {
+      content: " ";
+      position: absolute;
+      width: 125px;
+      height: 5px;
+      background-color: rgba(68, 68, 68, 0.781);
+      right: 30px;
+    }
+    .one::after {
+      width: 0;
+      height: 0;
+    }
+    .ul-jv #jv-li .progress1 .uil {
+      display: none;
+    }
+    .ul-jv #jv-li .progress1 p {
+      font-size: 13px;
+    }
+
+    /* Active Css  */
+
+    .ul-jv #jv-li .active {
+      background-color: #ff4732;
+      display: grid;
+      place-items: center;
+    }
+    .ul-jv .active::after {
+      background-color: #ff4732;
+    }
+    .ul-jv #jv-li .active p {
+      display: none;
+    }
+    .ul-jv #jv-li .active .uil {
+      font-size: 20px;
+      display: flex;
+    }
+
+    /* Responsive Css  */
+
+    @media (max-width: 980px) {
+      .ul-jv {
+        flex-direction: column;
+      }
+      .ul-jv #jv-li {
+        flex-direction: row;
+      }
+      .ul-jv #jv-li .progress1 {
+        margin: 0 30px;
+      }
+      .progress1::after {
+        width: 5px;
+        height: 55px;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: -1;
+      }
+      .one::after {
+        height: 0;
+      }
+      .ul-jv #jv-li .icon {
+        margin: 15px 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .head .head_1 {
+        font-size: 24px;
+      }
+      .head .head_2 {
+        font-size: 16px;
+      }
+    }
+
+    .blur-effect {
+    filter: blur(5px); /* Adjust the blur level as needed */
+}
+  </style>
+  <body>
+
+     <div class="container" id="blur">
+        <div class="content">
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente, 
+                neque reiciendis. Blanditiis, asperiores molestias sed
+            </h2>
+            <img src="harry.jpg" width="300px">
+            <a href="#" onclick="toggle()">Readmore</a>
+        </div>
+    </div>
+    <div id="popup">
+        <h2>Hello World!!!</h2>
+        <p>Lorem ipsum dolor sit, amet  exercitationem dolorem 
+        provident ullam quibusdam facere fugit aperiam recusandae accusantium!</p>
+        <a href="#" onclick="toggle()">Close</a>
+    </div>
+    <script>
+        function toggle() {
+            var blur=document.getElementById('blur');
+            blur.classList.toggle('active');
+            var popup = document.getElementById('popup');
+            popup.classList.toggle('active');
+        }
+    </script>
+</body>
+    <div class="main">
+      <div class="head">
+        <p class="head_1">Find Your <span>Dream Job</span>Today</p>
+        <p class="head_2">Let's Kick! in this few steps</p>
+      </div>
+
+      <ul class="ul-jv">
+        <li id="jv-li">
+          <i class="icon uil uil-capture"></i>
+          <div class="progress1 one">
+            <p>1</p>
+            <i class="uil uil-check"></i>
+          </div>
+          <p class="text">Create Account</p>
+        </li>
+        <li id="jv-li">
+          <i class="icon uil uil-clipboard-notes"></i>
+          <div class="progress1 two">
+            <p>2</p>
+            <i class="uil uil-check"></i>
+          </div>
+          <p class="text">Login</p>
+        </li>
+        <li id="jv-li">
+          <i class="icon uil uil-credit-card"></i>
+          <div class="progress1 three">
+            <p>3</p>
+            <i class="uil uil-check"></i>
+          </div>
+          <p class="text">Search Job</p>
+        </li>
+        <li id="jv-li">
+          <i class="icon uil uil-exchange"></i>
+          <div class="progress1 four">
+            <p>4</p>
+            <i class="uil uil-check"></i>
+          </div>
+          <p class="text">Fill Details</p>
+        </li>
+        <li id="jv-li">
+          <i class="icon uil uil-map-marker"></i>
+          <div class="progress1 five">
+            <p>5</p>
+            <i class="uil uil-check"></i>
+          </div>
+          <p class="text">Application Status</p>
+        </li>
+      </ul>
+    </div>
+    <div id="firstdiv" style="text-align: center">
+      <p>long text goes here....</p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </div>
+    <div id="seconddiv"">
+      <p>long text goes here....<p>long text goes here....</p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.</p>
+    </div>
+    <div id="thirddiv">
+      <p>long text goes <p>long text goes here....
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.here...
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.here....
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.here....
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo conse quat. Duis aute irure dolor in
+      reprehenderit in voluptate velit esse cillum do lore eu fugiat nulla
+      pariatur. Excepteur sint occaecat cupidatat non proident, su nt in culpa
+      qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo conse quat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum do
+      lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, su nt in culpa qui officia deserunt mollit anim id est
+      laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+      ea commodo conse quat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum do lore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, su nt in culpa qui officia deserunt
+      mollit anim id est laborum.here.....</p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<script>
+  const one = document.querySelector(".one");
+  const two = document.querySelector(".two");
+  const three = document.querySelector(".three");
+  const four = document.querySelector(".four");
+  const five = document.querySelector(".five");
+
+  one.onclick = function () {
+    one.classList.add("active");
+    two.classList.remove("active");
+    three.classList.remove("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+  };
+
+  two.onclick = function () {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.remove("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+  };
+  three.onclick = function () {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.remove("active");
+    five.classList.remove("active");
+  };
+  four.onclick = function () {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.add("active");
+    five.classList.remove("active");
+  };
+  five.onclick = function () {
+    one.classList.add("active");
+    two.classList.add("active");
+    three.classList.add("active");
+    four.classList.add("active");
+    five.classList.add("active");
+  };
+
+  
+  
+window.onscroll = function() {
+    var pageHeight = document.documentElement.offsetHeight;
+    var windowHeight = window.innerHeight;
+    var scrollPosition = window.scrollY || window.pageYOffset || document.body.scrollTop + (document.documentElement && document.documentElement.scrollTop || 0);
+
+    if (pageHeight - windowHeight - scrollPosition < 1) {
+        // User has scrolled to the bottom of the page
+        document.getElementById("thirddiv").classList.add("blur-effect");
+        alert("Need to login to reveal");
+    }
+};
+
+</script>

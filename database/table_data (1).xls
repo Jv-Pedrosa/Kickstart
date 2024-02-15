@@ -1,0 +1,21 @@
+<div id="printableTable">
+                            <table border="1" style="border: 1px solid black; border-collapse: collapse;" class="table table-bordered table-hover"><tbody><tr>
+                                        <th>ID</th>
+                                        <th>Last Name</th>
+                                        <th>First Name</th>
+                                        <th>Course</th>
+                                        <th>Email</th>
+                                        <th>Phone Number</th>
+                                      </tr><tr>
+                                        <td>4</td>
+                                        <td>Pedrosa</td>
+                                        <td>Jv</td>   
+                                        <td>Diploma in Mechanical Engineering Technology (DMET)</td>
+                                        <td>Jv@gmail.com</td>
+                                        <td>0</td></tr><tr>
+                                        <td>5</td>
+                                        <td>florendo</td>
+                                        <td>lochlain</td>   
+                                        <td>Bachelor of Science in Mechanical Engineering (BSME)</td>
+                                        <td>florendo@gmail.com</td>
+                                        <td>0</td></tr></tbody></table>                        </div>

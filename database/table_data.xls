@@ -1,0 +1,119 @@
+<div id="printableTable">
+                            <table border="1" style="border: 1px solid black; border-collapse: collapse;" class="table table-bordered table-hover"><tbody><tr>
+                                        <th>ID</th>
+                                        <th>Name</th>
+                                        <th>UserName</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Type</th>
+                                      </tr><tr>
+                                            <td>1</td>
+                                            <td>Administrator</td>
+                                            <td>admin</td>
+                                            <td></td>
+                                            <td></td><td>Admin</td></tr><tr>
+                                            <td>2</td>
+                                            <td>WEB DEVELOPER</td>
+                                            <td>JV</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>16</td>
+                                            <td>Vacancy</td>
+                                            <td>vac</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>17</td>
+                                            <td>Accenture</td>
+                                            <td>acc</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>23</td>
+                                            <td>Receptionist</td>
+                                            <td>q</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>28</td>
+                                            <td>Vincent</td>
+                                            <td>vincent</td>
+                                            <td></td>
+                                            <td></td><td>Student</td></tr><tr>
+                                            <td>29</td>
+                                            <td>bilog</td>
+                                            <td>bilog</td>
+                                            <td></td>
+                                            <td></td><td>Student</td></tr><tr>
+                                            <td>33</td>
+                                            <td>gar</td>
+                                            <td>gar</td>
+                                            <td>gar</td>
+                                            <td>gar</td><td>Student</td></tr><tr>
+                                            <td>34</td>
+                                            <td>JV</td>
+                                            <td>jv</td>
+                                            <td>Jon Vincent</td>
+                                            <td>Pedrosa</td><td>Student</td></tr><tr>
+                                            <td>35</td>
+                                            <td>Baki</td>
+                                            <td>baki</td>
+                                            <td>Lochlain</td>
+                                            <td>Florendo</td><td>Student</td></tr><tr>
+                                            <td>36</td>
+                                            <td>GAR COMPANY</td>
+                                            <td>GAR</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>40</td>
+                                            <td>TESTER</td>
+                                            <td>test</td>
+                                            <td>testing</td>
+                                            <td>Tester</td><td>Student</td></tr><tr>
+                                            <td>41</td>
+                                            <td>Java</td>
+                                            <td>java</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>42</td>
+                                            <td>SARDINES</td>
+                                            <td>sardines</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>43</td>
+                                            <td>lochlain</td>
+                                            <td>baki</td>
+                                            <td>baki</td>
+                                            <td>hanma</td><td>Student</td></tr><tr>
+                                            <td>44</td>
+                                            <td>WATERFLO</td>
+                                            <td>water</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>45</td>
+                                            <td>bangkodeoro</td>
+                                            <td>baki</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>46</td>
+                                            <td>Alitaptap</td>
+                                            <td>altp</td>
+                                            <td></td>
+                                            <td></td><td>Admin</td></tr><tr>
+                                            <td>47</td>
+                                            <td>Intel</td>
+                                            <td>intel</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>48</td>
+                                            <td>Cheo Angelo Anjao Padua</td>
+                                            <td>cheoangelo</td>
+                                            <td>Cheo Angelo</td>
+                                            <td>Padua</td><td>Student</td></tr><tr>
+                                            <td>49</td>
+                                            <td>Alitaptap Clothing</td>
+                                            <td>Altp Merch</td>
+                                            <td></td>
+                                            <td></td><td>Company</td></tr><tr>
+                                            <td>50</td>
+                                            <td></td>
+                                            <td>Jc123</td>
+                                            <td>Jose</td>
+                                            <td>Chan</td><td>Student</td></tr></tbody></table>                        </div>

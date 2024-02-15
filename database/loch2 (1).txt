@@ -1,0 +1,285 @@
+<optgroup label="Sta. Mesa, Manila Branch"> 
+        <optgroup label="Doctorate Degree Programs">
+            <option value="Doctor of Philosophy in Communication">Doctor of Philosophy in Communication (PhD Com)</option>
+            <option value="Doctor of Philosophy in Economics">Doctor of Philosophy in Economics (PhD Econ)</option>
+            <option value="Doctor of Philosophy in English Language Studies">Doctor of Philosophy in English Language Studies (PhD ELS)</option>
+            <option value="octor of Philosophy in Filipino">Doctor of Philosophy in Filipino (PhD Fil)</option>
+            <optgroup label="Major in">
+                <option value="wika">Wika</option>
+                <option value="panitikan">Panitikan</option>
+            </optgroup>
+            <option value="phd-psy">Doctor of Philosophy in Psychology (PhD Psy)</option>
+        </optgroup>
+            <!-- Add specific branch programs here -->
+        </optgroup>
+
+
+
+
+
+
+        <optgroup label="Master's Degree Programs">
+          <option value="Master in Applied Statistics">Master in Applied Statistics (MAS)</option>
+          <optgroup label="Specializations">
+              <option value="Data Analytics">Data Analytics</option>
+              <option value="Official Statistics">Official Statistics</option>
+              <option value="Statistical Methods">Statistical Methods</option>
+          </optgroup>
+          <option value="Master of Arts in Communication">Master of Arts in Communication (MAC)</option>
+          <option value="Master of Arts in English Language Studies">Master of Arts in English Language Studies (MAELS)</option>
+          <option value="Master of Arts in Filipino">Master of Arts in Filipino (MAF)</option>
+          <optgroup label="Major in">
+              <option value="Wika">Wika</option>
+              <option value="Panitikan">Panitikan</option>
+          </optgroup>
+          <option value="Master of Arts in Philippine Studies">Master of Arts in Philippine Studies (MAPhilS)</option>
+          <option value="Master of Arts in Philosophy">Master of Arts in Philosophy (MAPhilo)</option>
+          <option value="Master of Arts in Psychology">Master of Arts in Psychology (MAP)</option>
+          <optgroup label="Major in">
+              <option value="Clinical Psychology">Clinical Psychology</option>
+              <option value="Industrial Psychology">Industrial Psychology</option>
+          </optgroup>
+          <option value="Master of Arts in Sociology">Master of Arts in Sociology (MASocio)</option>
+          <option value="Master of Science in Biology">Master of Science in Biology (MSBio)</option>
+          <option value="Master of Science in Civil Engineering">Master of Science in Civil Engineering (MSCE)</option>
+          <optgroup label="Specializations">
+              <option value="Structural Engineering">Structural Engineering</option>
+              <option value="Transport Engineering">Transport Engineering</option>
+              <option value="Geotechnical Engineering">Geotechnical Engineering</option>
+              <option value="Water Resources Engineering">Water Resources Engineering</option>
+          </optgroup>
+          <option value="Master of Science in Computer Engineering">Master of Science in Computer Engineering (MSCpE)</option>
+          <optgroup label="Specializations">
+              <option value="Applied Security and Digital Forensics">Applied Security and Digital Forensics</option>
+              <option value="Data Science and Engineering">Data Science and Engineering</option>
+          </optgroup>
+          <option value="Master of Science in Economics">Master of Science in Economics (MSEcon)</option>
+          <option value="Master of Science in Electronics Engineering">Master of Science in Electronics Engineering (MSEcE)</option>
+          <optgroup label="Specializations">
+              <option value="Artificial Intelligence and Automation">Artificial Intelligence and Automation</option>
+              <option value="Telecommunications">Telecommunications</option>
+          </optgroup>
+          <option value="Master of Science in Industrial Engineering">Master of Science in Industrial Engineering (MSIE)</option>
+          <option value="Master of Science in Information Technology">Master of Science in Information Technology (MSIT)</option>
+          <optgroup label="Specializations">
+              <option value="Data Analytics">Data Analytics</option>
+              <option value="Information Security">Information Security</option>
+          </optgroup>
+          <option value="Master of Science in International Tourism and Hospitality Management">Master of Science in International Tourism and Hospitality Management (MSITHM)</option>
+          <optgroup label="Specializations">
+              <option value="Hotel Operations">Hotel Operations</option>
+              <option value="Travel and Tourism Operations">Travel and Tourism Operations</option>
+          </optgroup>
+          <option value="Master of Science in Mathematics">Master of Science in Mathematics (MSMath)</option>
+          <option value="Master of Science in Mechanical Engineering">Master of Science in Mechanical Engineering (MSME)</option>
+          <option value="Master of Science in Nutrition and Dietetics">Master of Science in Nutrition and Dietetics (MSND)</option>
+          <option value="Professional Science Masters in Railway Engineering Management">Professional Science Masters in Railway Engineering Management (PSMREM)</option>
+      </optgroup>
+
+
+
+
+
+
+      <optgroup label="Open University System">
+        <option value="Doctor in Business Administration">Doctor in Business Administration (DBA)</option>
+        <option value="Doctor in Engineering Management">Doctor in Engineering Management (D.Eng)</option>
+        <option value="Doctor of Philosophy in Education Management">Doctor of Philosophy in Education Management (PhDEM)</option>
+        <option value="Doctor in Public Administration">Doctor in Public Administration (DPA)</option>
+        <option value="Master in Communication">Master in Communication (MC)</option>
+        <option value="Master in Business Administration">Master in Business Administration (MBA)</option>
+        <option value="Master of Arts in Education Management">Master of Arts in Education Management (MAEM)</option>
+        <option value="Master in Information Technology">Master in Information Technology (MIT)</option>
+        <option value="Master in Public Administration">Master in Public Administration (MPA)</option>
+        <option value="Master of Science in Construction Management">Master of Science in Construction Management (MSCM)</option>
+        <option value="Post Baccalaureate Diploma in Information Technology">Post Baccalaureate Diploma in Information Technology (PBDIT)</option>
+        <option value="Bachelor of Science in Entrepreneurship">Bachelor of Science in Entrepreneurship (BSENTREP)</option>
+        <option value="Bachelor of Arts in Broadcasting">Bachelor of Arts in Broadcasting (BABR)</option>
+        <option value="Bachelor of Science in Business Administration major in Human Resource Management">Bachelor of Science in Business Administration major in Human Resource Management (BSBAHRM)</option>
+        <option value="Bachelor of Science in Business Administration major in Marketing Management">Bachelor of Science in Business Administration major in Marketing Management (BSBAMM)</option>
+        <option value="Bachelor of Science in Office Administration">Bachelor of Science in Office Administration (BSOA)</option>
+        <option value="Bachelor of Science in Tourism Management">Bachelor of Science in Tourism Management (BSTM)</option>
+        <option value="Bachelor of Public Administration">Bachelor of Public Administration (BPA)</option>
+    </optgroup>
+
+
+
+
+
+    <optgroup label="College of Accountancy and Finance (CAF)">
+      <option value="Bachelor of Science in Accountancy">Bachelor of Science in Accountancy (BSA)</option>
+      <option value="Bachelor of Science in Business Administration Major in Financial Management">Bachelor of Science in Business Administration Major in Financial Management (formerly Bachelor of Science in Banking and Finance) (BSBAFM)</option>
+      <option value="Bachelor of Science in Management Accounting">Bachelor of Science in Management Accounting (BSMA)</option>
+  </optgroup>
+
+
+
+  <optgroup label="College of Architecture, Design and the Built Environment (CADBE)">
+    <option value="Bachelor of Science in Architecture">Bachelor of Science in Architecture (BS-ARCH)</option>
+    <option value="Bachelor of Science in Interior Design">Bachelor of Science in Interior Design (BSID)</option>
+    <option value="Bachelor of Science in Environmental Planning">Bachelor of Science in Environmental Planning (BSEP)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Arts and Letters (CAL)">
+  <option value="Bachelor of Arts in English Language Studies">Bachelor of Arts in English Language Studies (formerly Bachelor of Arts in English) (ABELS)</option>
+  <option value="Bachelor of Arts in Filipinology">Bachelor of Arts in Filipinology (ABF)</option>
+  <option value="Bachelor of Arts in Literary and Cultural Studies">Bachelor of Arts in Literary and Cultural Studies (ABLCS)</option>
+  <option value="Bachelor of Arts in Philosophy">Bachelor of Arts in Philosophy (AB-PHILO)</option>
+  <option value="Bachelor of Performing Arts major in Theater Arts">Bachelor of Performing Arts major in Theater Arts (formerly BA Theater Arts) (BPEA)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Business Administration (CBA)">
+  <option value="Doctor in Business Administration">Doctor in Business Administration (DBA)</option>
+  <option value="Master in Business Administration">Master in Business Administration (MBA)</option>
+  <option value="Bachelor of Science in Business Administration major in Human Resource Management">Bachelor of Science in Business Administration major in Human Resource Management (formerly Bachelor of Science in Human Resource Development Management) (BSBAHRM)</option>
+  <option value="Bachelor of Science in Business Administration major in Marketing Managemen">Bachelor of Science in Business Administration major in Marketing Management (BSBA-MM)</option>
+  <option value="Bachelor of Science in Entrepreneurship">Bachelor of Science in Entrepreneurship (BSENTREP)</option>
+  <option value="Bachelor of Science in Office Administration">Bachelor of Science in Office Administration (BSOA)</option>
+</optgroup>
+
+
+
+
+<optgroup label="College of Communication (COC)">
+  <option value="Bachelor in Advertising and Public Relations">Bachelor in Advertising and Public Relations (BADPR)</option>
+  <option value="Bachelor of Arts in Broadcasting">Bachelor of Arts in Broadcasting (BA Broadcasting)</option>
+  <option value="Bachelor of Arts in Communication Research">Bachelor of Arts in Communication Research (BACR)</option>
+  <option value="Bachelor of Arts in Journalism">Bachelor of Arts in Journalism (BAJ)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Computer and Information Sciences (CCIS)">
+  <option value="Bachelor of Science in Computer Science">Bachelor of Science in Computer Science (BSCS)</option>
+  <option value="Bachelor of Science in Information Technology">Bachelor of Science in Information Technology (BSIT)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Education (COED)">
+  <option value="Doctor of Philosophy in Education Management">Doctor of Philosophy in Education Management (PhDEM)</option>
+  <option value="Master of Arts in Education Management">Master of Arts in Education Management (MAEM) with Specialization in:
+      <option value="Educational Leadership">Educational Leadership</option>
+      <option value="Instructional Leadership">Instructional Leadership</option>
+  </option>
+  <option value="Master in Business Education">Master in Business Education (MBE)</option>
+  <option value="Master in Library and Information Science">Master in Library and Information Science (MLIS)</option>
+  <option value="Master of Arts in English Language Teaching">Master of Arts in English Language Teaching (MAELT)</option>
+  <option value="Master of Arts in Education major in Mathematics Education">Master of Arts in Education major in Mathematics Education (MAEd-ME)</option>
+  <option value="Master of Arts in Physical Education and Sports">Master of Arts in Physical Education and Sports (MAPES)</option>
+  <option value="Master of Arts in Education major in Teaching in the Challenged Areas">Master of Arts in Education major in Teaching in the Challenged Areas (MAED-TCA)</option>
+  <option value="Post-Baccalaureate Diploma in Education">Post-Baccalaureate Diploma in Education (PBDE)</option>
+  <option value="Bachelor of Technology and Livelihood Education">Bachelor of Technology and Livelihood Education (BTLEd) major in:
+      <option value="Home Economics">Home Economics</option>
+      <option value="Industrial Arts">Industrial Arts</option>
+      <option value="Information and Communication Technology">Information and Communication Technology</option>
+  </option>
+  <option value="Bachelor of Library and Information Science">Bachelor of Library and Information Science (BLIS)</option>
+  <option value="Bachelor of Secondary Education">Bachelor of Secondary Education (BSEd) major in:
+      <option value="English">English</option>
+      <option value="Mathematics">Mathematics</option>
+      <option value="Science">Science</option>
+      <option value="Filipino">Filipino</option>
+      <option value="Social Studies">Social Studies</option>
+  </option>
+  <option value="Bachelor of Elementary Education">Bachelor of Elementary Education (BEEd)</option>
+  <option value="Bachelor of Early Childhood Education">Bachelor of Early Childhood Education (BECEd)</option>
+</optgroup>
+
+
+
+
+<optgroup label="College of Engineering (CE)">
+  <option value="Bachelor of Science in Civil Engineering">Bachelor of Science in Civil Engineering (BSCE)</option>
+  <option value="Bachelor of Science in Computer Engineering">Bachelor of Science in Computer Engineering (BSCpE)</option>
+  <option value="Bachelor of Science in Electrical Engineering">Bachelor of Science in Electrical Engineering (BSEE)</option>
+  <option value="Bachelor of Science in Electronics Engineering">Bachelor of Science in Electronics Engineering (BSECE)</option>
+  <option value="Bachelor of Science in Industrial Engineering">Bachelor of Science in Industrial Engineering (BSIE)</option>
+  <option value="Bachelor of Science in Mechanical Engineering">Bachelor of Science in Mechanical Engineering (BSME)</option>
+  <option value="Bachelor of Science in Railway Engineering">Bachelor of Science in Railway Engineering (formerly Bachelor of Science in Railway Engineering and Management) (BSRE)</option>
+</optgroup>
+
+
+
+
+<optgroup label="College of Human Kinetics (CHK)">
+  <option value="Bachelor of Physical Education">Bachelor of Physical Education (BPE)</option>
+  <option value="Bachelor of Science in Exercises and Sports">Bachelor of Science in Exercises and Sports (BSESS)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Law (CL)">
+  <option value="Juris Doctor">Juris Doctor (JD)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Political Science and Public Administration (CPSPA)">
+  <option value="Doctor in Public Administration">Doctor in Public Administration (DPA)</option>
+  <option value="Master in Public Administration">Master in Public Administration (MPA)</option>
+  <option value="Bachelor of Arts in Political Science">Bachelor of Arts in Political Science (BAPS)</option>
+  <option value="Bachelor of Arts in Political Science">Bachelor of Arts in Political Science (BAPE)</option>
+  <option value="Bachelor of Arts in International Studies">Bachelor of Arts in International Studies (BAIS)</option>
+  <option value="Bachelor of Public Administration">Bachelor of Public Administration (BPA)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Social Sciences and Development (CSSD)">
+  <option value="Bachelor of Arts in History">Bachelor of Arts in History (BAH)</option>
+  <option value="Bachelor of Arts in Sociology">Bachelor of Arts in Sociology (formerly Bachelor of Science in Sociology) (BAS)</option>
+  <option value="Bachelor of Science in Cooperatives">Bachelor of Science in Cooperatives (formerly Bachelor in Cooperatives) (BSC)</option>
+  <option value="Bachelor of Science in Economics">Bachelor of Science in Economics (BSE)</option>
+  <option value="Bachelor of Science in Psychology">Bachelor of Science in Psychology (BSPSY)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Science (CS)">
+  <option value="Bachelor of Science Food Technology">Bachelor of Science Food Technology (BSFT)</option>
+  <option value="Bachelor of Science in Applied Mathematics">Bachelor of Science in Applied Mathematics (BSAPMATH)</option>
+  <option value="Bachelor of Science in Biology">Bachelor of Science in Biology (BSBIO)</option>
+  <option value="Bachelor of Science in Chemistry">Bachelor of Science in Chemistry (BSCHEM)</option>
+  <option value="Bachelor of Science in Mathematics">Bachelor of Science in Mathematics (BSMATH)</option>
+  <option value="Bachelor of Science in Nutrition and Dietetics">Bachelor of Science in Nutrition and Dietetics (BSND)</option>
+  <option value="Bachelor of Science in Physics">Bachelor of Science in Physics (BSPHY)</option>
+  <option value="Bachelor of Science in Statistics">Bachelor of Science in Statistics (formerly Bachelor in Applied Statistics) (BSSTAT)</option>
+</optgroup>
+
+
+
+<optgroup label="College of Tourism, Hospitality and Transportation Management (CTHTM)">
+  <option value="Bachelor of Science in Hospitality Management">Bachelor of Science in Hospitality Management (BSHM)</option>
+  <option value="Bachelor of Science in Tourism Management">Bachelor of Science in Tourism Management (BSTM)</option>
+  <option value="Bachelor of Science in Transportation Management">Bachelor of Science in Transportation Management (formerly Bachelor in Transportation Management) (BSTRM)</option>
+</optgroup>
+
+
+
+<optgroup label="Institute of Technology">
+  <option value="Diploma in Computer Engineering Technology">Diploma in Computer Engineering Technology (DCET)</option>
+  <option value="Diploma in Electrical Engineering Technology">Diploma in Electrical Engineering Technology (DEET)</option>
+  <option value="Diploma in Electronics Engineering Technology">Diploma in Electronics Engineering Technology (DECET)</option>
+  <option value="Diploma in Information Communication Technology">Diploma in Information Communication Technology (DICT)</option>
+  <option value="Diploma in Mechanical Engineering Technology">Diploma in Mechanical Engineering Technology (DMET)</option>
+  <option value="Diploma in Office Management">Diploma in Office Management (DOMT)</option>
+</optgroup>
+
+
+
+
+<optgroup label="Senior High School">
+  <option value="Academic Track - General Academic Strand">Academic Track - General Academic Strand (GAS)</option>
+  <option value="Science, Technology, Engineering and Mathematics">Science, Technology, Engineering and Mathematics (STEM) Strand</option>
+  <option value="Accountancy, Business and Management">Accountancy, Business and Management (ABM) Strand</option>
+  <option value="Humanities and Social Sciences">Humanities and Social Sciences (HumSS) Strand</option>
+  <option value="Arts and Design Track">Arts and Design Track</option>
+  <option value="Technical, Vocational and Livelihood Track">Technical, Vocational and Livelihood Track - Tourism, Home Economics</option>
+  <option value="Technical, Vocational and Livelihood Track - Industrial Arts">Technical, Vocational and Livelihood Track - Industrial Arts (Automotive, Electronics, Electrical)</option>
+  <option value="Technical, Vocational and Livelihood Track - Information and Communications Technology">Technical, Vocational and Livelihood Track - Information and Communications Technology</option>
+</optgroup>
