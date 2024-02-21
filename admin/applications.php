@@ -34,6 +34,9 @@ echo $_SESSION['login_name']; ?></H2>
                                             <?php echo $_SESSION['login_name']  ?> <a href="printApp.php"
                                                 target="_blank"> <button class="btn btn-primary float-right btn-sm">
                                                     <i class="fa fa-print"></i> Print Records</button></a></b></h2>
+                                    <button class="btn btn-sm btn-block btn-primary btn-sm col-md-2 float-right"
+                                        type="button" id="new_application"><i class="fa fa-plus"></i> New
+                                        Application</button>
                                 </span>
 
                             </div>
@@ -105,11 +108,11 @@ echo $_SESSION['login_name']; ?></H2>
                                 <tr>
                                     <td class="text-center"><?php echo $i++ ?></td>
                                     <td class="">
-                                       
-                                            <b><?php echo ucwords($row['lastname'].', '.$row['firstname'].' '.$row['middlename']) ?></b>
-                    
-                        
-                                        <td class="text-center">
+
+                                        <b><?php echo ucwords($row['lastname'].', '.$row['firstname'].' '.$row['middlename']) ?></b>
+
+
+                                    <td class="text-center">
                                         <b><?php echo $row['position'] ?></b>
                                     </td>
                                     <td class="text-center">

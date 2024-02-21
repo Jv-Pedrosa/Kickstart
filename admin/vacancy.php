@@ -68,7 +68,7 @@ if ($login_name == "Administrator") {
 								?>
                                 <tr>
                                     <td class="text-center"><?php echo $i++ ?></td>
-                                    <td class="">
+                                    <td class="" style="width: 200px; max-width: 800px;">
                                         <p>COMPANY NAME : <b><?php echo $row['position'] ?></b></p>
                                         <p class=" truncate"><i><small><?php echo strip_tags($desc) ?></small></i></p>
                                     </td>
